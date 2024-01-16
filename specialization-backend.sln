@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "finalproject1", "finalproject1", "{D554EB4E-26BE-408F-ACD0-8450441A350B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "paymentDetailsAPI", "finalproject1\paymentDetailsAPI\paymentDetailsAPI.csproj", "{2AE496EC-9CAD-482A-A6DD-C262AABD5DDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AE496EC-9CAD-482A-A6DD-C262AABD5DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE496EC-9CAD-482A-A6DD-C262AABD5DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE496EC-9CAD-482A-A6DD-C262AABD5DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE496EC-9CAD-482A-A6DD-C262AABD5DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AE496EC-9CAD-482A-A6DD-C262AABD5DDD} = {D554EB4E-26BE-408F-ACD0-8450441A350B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C820F2CC-B8DC-48FC-8769-8563D94E6C0B}
+	EndGlobalSection
+EndGlobal
