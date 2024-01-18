@@ -1,5 +1,6 @@
 using System;
 using System.Drawing;
+using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -79,7 +80,14 @@ namespace PaymentDetailAPI.Controllers
 
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            // return NoContent();
+            return Ok(item);
+            // var response = new JsonResult(item) {StatusCode = 204}
+            // {
+            //     StatusCode = 200; // Set your desired HTTP status code
+            // };
+
+            // return response;
         }
 
         [HttpDelete("{id}")]
@@ -99,7 +107,6 @@ namespace PaymentDetailAPI.Controllers
 
             return Ok(item);
         }
-
 
         // [Route ("TestRun")]
         // [HttpGet]

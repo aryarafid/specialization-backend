@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_spec2\\assignments\\specialization-backend\\finalproject1\\PaymentDetailAPI\\PaymentDetailAPI.csproj": {}
+    "D:\\_spec2\\assignments\\specialization-backend\\finalproject1\\paymentdetailapi\\PaymentDetailAPI.csproj": {}
   },
   "projects": {
-    "D:\\_spec2\\assignments\\specialization-backend\\finalproject1\\PaymentDetailAPI\\PaymentDetailAPI.csproj": {
+    "D:\\_spec2\\assignments\\specialization-backend\\finalproject1\\paymentdetailapi\\PaymentDetailAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_spec2\\assignments\\specialization-backend\\finalproject1\\PaymentDetailAPI\\PaymentDetailAPI.csproj",
+        "projectUniqueName": "D:\\_spec2\\assignments\\specialization-backend\\finalproject1\\paymentdetailapi\\PaymentDetailAPI.csproj",
         "projectName": "PaymentDetailAPI",
-        "projectPath": "D:\\_spec2\\assignments\\specialization-backend\\finalproject1\\PaymentDetailAPI\\PaymentDetailAPI.csproj",
+        "projectPath": "D:\\_spec2\\assignments\\specialization-backend\\finalproject1\\paymentdetailapi\\PaymentDetailAPI.csproj",
         "packagesPath": "C:\\Users\\MD94348X\\.nuget\\packages\\",
-        "outputPath": "D:\\_spec2\\assignments\\specialization-backend\\finalproject1\\PaymentDetailAPI\\obj\\",
+        "outputPath": "D:\\_spec2\\assignments\\specialization-backend\\finalproject1\\paymentdetailapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MD94348X\\AppData\\Roaming\\NuGet\\NuGet.Config",

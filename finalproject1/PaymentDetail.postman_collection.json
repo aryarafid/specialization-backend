@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "fd5faecd-e018-4945-a576-489a4759bd07",
+		"name": "PaymentDetail",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22929544"
+	},
+	"item": [
+		{
+			"name": "get all payment detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/PaymentDetail",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"PaymentDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get payment detail by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/PaymentDetail/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"PaymentDetail",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create new payment detail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cardOwnerName\": \"Chad Butler\",\r\n  \"cardNumber\": \"0409\",\r\n  \"expirationDate\": \"18-01-2028\",\r\n  \"securityCode\": \"0809\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/PaymentDetail",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"PaymentDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit payment detail",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"paymentDetailId\": 1,\r\n        \"cardOwnerName\": \"Yudhi\",\r\n        \"cardNumber\": \"0945\",\r\n        \"expirationDate\": \"15-01-2024\",\r\n        \"securityCode\": \"0923\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/PaymentDetail/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"PaymentDetail",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete payment detail",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/PaymentDetail/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"PaymentDetail",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
