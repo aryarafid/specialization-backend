@@ -3,6 +3,8 @@
 
 (Backend) REST API untuk Online Debit/Credit Payment Detail.
 
+[Link Demo Video Final Project 1](https://github.com/aryarafid/specialization-backend/blob/main/finalproject1/finalproject2-soal1.mp4)
+
 Detail data:
 
 ```
